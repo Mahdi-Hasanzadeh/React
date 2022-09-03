@@ -1,0 +1,63 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 99%;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  border: 1px solid white;
+  box-shadow: 0 1.5px 7.46px #eec1c1;
+  padding: 15px 25px;
+}
+.main-container{
+  width: 99%;
+  margin: 0 auto;
+}
+.card-container {
+  border: 1px solid white;
+  width: 99%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #0a9683, #02132c);
+  flex-wrap: wrap;
+}
+.context-items {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.items {
+  width: 300px;
+  text-align: center;
+  color: rgb(255, 162, 0);
+}
+.photos {
+  width: 100%;
+} */
+/* .contact-card {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 15px;
+  max-width: 200px;
+  box-shadow: 0px 2.678px 8px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* .info-group{
+  display: flex;
+  padding: 1px;
+}
+.cat-logo {
+  width: 150px;
+  border-radius: 15px;
+}
+.PMLogo{
+  width: 20px;
+} */

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactLogo from "../images/logo192.png";
+import ReactLogo from "../images/icons8-mail-24.png";
 import SocialLogo from "../images/social-icons.svg";
 export default class First extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class First extends Component {
             </div>
           </div>
         </div>
-        <div className="context-container">
+        {/* <div className="context-container">
           <div className="context">
             <div className="context-title">
               <h1>Fun facts about react</h1>
@@ -41,21 +41,7 @@ export default class First extends Component {
             </div>
           </div>
         </div>
-        <div className="footer">
-          <div className="footer-items">
-            <div className="item1">
-              <img src={SocialLogo} alt="" className="footer-logo" />
-            </div>
-            <div className="item2">Hasanzadeh Production</div>
-            <div className="item3">
-              <ul>
-                <li>Home</li>
-                <li>Services</li>
-                <li>About</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        */}
       </React.Fragment>
     );
   }
