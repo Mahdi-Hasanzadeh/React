@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/React/static/css/main.ef1d0021.css",
-    "main.js": "/React/static/js/main.6c65bc2a.js",
+    "main.css": "/React/static/css/main.2a8fd77f.css",
+    "main.js": "/React/static/js/main.e82ed827.js",
+    "static/media/shop.jfif": "/React/static/media/shop.e5d68706464582adb611.jfif",
     "static/media/three.svg": "/React/static/media/three.9478ab8e58ce021bbaff1641799db8f8.svg",
+    "static/media/tShirt6.jfif": "/React/static/media/tShirt6.91af452ee8dfd0b3372a.jfif",
+    "static/media/tShirt3.jfif": "/React/static/media/tShirt3.325a5a74232927e7a929.jfif",
+    "static/media/tShirt7.jfif": "/React/static/media/tShirt7.114a1779c153cf0942fa.jfif",
+    "static/media/tShirt4.jfif": "/React/static/media/tShirt4.ca15dad9746b53c1cede.jfif",
+    "static/media/tShirt5.jfif": "/React/static/media/tShirt5.3ef141e5f911ab5d69d3.jfif",
     "static/media/social-icons.svg": "/React/static/media/social-icons.0f62716978b95893d955b17248072fb6.svg",
+    "static/media/tShirt8.jfif": "/React/static/media/tShirt8.0fa80ffce91bbb03f2da.jfif",
+    "static/media/tShirt.jfif": "/React/static/media/tShirt.b171e6c1832d90774212.jfif",
+    "static/media/tShirt2.jfif": "/React/static/media/tShirt2.d4e02f02199c881683b6.jfif",
     "static/media/two.svg": "/React/static/media/two.12c06681eb03b8dede86aa3a80203d87.svg",
     "static/media/one.svg": "/React/static/media/one.825f80c3597e44bbbcd8b8d5ba6bd85e.svg",
     "index.html": "/React/index.html",
-    "main.ef1d0021.css.map": "/React/static/css/main.ef1d0021.css.map",
-    "main.6c65bc2a.js.map": "/React/static/js/main.6c65bc2a.js.map"
+    "main.2a8fd77f.css.map": "/React/static/css/main.2a8fd77f.css.map",
+    "main.e82ed827.js.map": "/React/static/js/main.e82ed827.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef1d0021.css",
-    "static/js/main.6c65bc2a.js"
+    "static/css/main.2a8fd77f.css",
+    "static/js/main.e82ed827.js"
   ]
 }
