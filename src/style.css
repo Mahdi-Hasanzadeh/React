@@ -58,7 +58,7 @@ li {
 .mainContainer {
   width: 98%;
   margin: 0 auto;
-  background: linear-gradient(to right, #1683cc, #3636db);
+  background: linear-gradient(to right, #146eaa, #3737da);
   display: flex;
   justify-content: center;
   border-radius: 10px;
@@ -76,12 +76,13 @@ li {
 }
 .main-logo {
   width: 100%;
+  border-radius: 10px;
 }
 
 .card-container {
   width: 98%;
   margin: 0 auto;
-  background: linear-gradient(to right, #0a9683, #02132c);
+  background: linear-gradient(to right, #0a9683, #052147);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -94,13 +95,20 @@ li {
   padding: 10px;
 }
 .items {
+  position: relative;
   box-shadow: 0px 3px 5px #02132c;
   padding: 5px;
   margin: 5px;
   color: #d6c827;
 }
+.badge {
+  color: #FFC400;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 .photos {
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
 }
 .info-font {
@@ -147,7 +155,7 @@ li {
 }
 .footer-items {
   width: 90%;
- 
+
   display: flex;
   justify-content: space-around;
   align-items: center;

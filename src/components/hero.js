@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../images/one.svg";
+import photo from "../images/shop.jfif";
 export default function Hero() {
   return (
     <div className="mainContainer">

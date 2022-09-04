@@ -3,51 +3,42 @@ import First from "./components/menu.jsx";
 import Navbar from "./components/nav.js";
 import Hero from "./components/hero.js";
 import Card from "./components/card.js";
-import logo1 from "./images/one.svg";
-import logo2 from "./images/two.svg";
-import logo3 from "./images/three.svg";
 import Footer from "./components/footer.js";
+import Practice from "./components/practice";
+import tshirt from "./images/tShirt.jfif";
+import tshirt2 from "./images/tShirt2.jfif";
+import tshirt3 from "./images/tShirt3.jfif";
+import tshirt4 from "./images/tShirt4.jfif";
+import tshirt5 from "./images/tShirt5.jfif";
+import tshirt6 from "./images/tShirt6.jfif";
+import tshirt7 from "./images/tShirt7.jfif";
+import tshirt8 from "./images/tShirt8.jfif";
 // import Contact from "./components/contact.js";
+import Data from "./components/data.js";
 
 export default function App() {
+  var logos = [tshirt7, tshirt2, tshirt8, tshirt4, tshirt5];
   return (
     <React.Fragment>
+      {/* <Practice /> */}
       <First />
       <Hero />
       <div className="card-container">
         <div className="context-items">
-          <Card
-            imageSource={logo1}
-            rating="5.0"
-            reviewCount={6}
-            country="Afg"
-            title="life lesson with Mahdi"
-            price={136}
-          />
-          <Card
-            imageSource={logo2}
-            rating="3.0"
-            reviewCount={6}
-            country="IR"
-            title="Social Experiment"
-            price={99.9}
-          />
-          <Card
-            imageSource={logo3}
-            rating="4.5"
-            reviewCount={6}
-            country="USA"
-            title="University"
-            price={124.95}
-          />
-          <Card
-            imageSource={logo1}
-            rating="5.5"
-            reviewCount={6}
-            country="Turkish"
-            title="Illusion of War"
-            price={150}
-          />
+          {Data.map(item => {
+            return (
+              <Card
+                key={item.id}
+                imageSource={logos[item.imageId]}
+                rating={item.rating}
+                reviewCount={item.reviewCount}
+                country={item.country}
+                title={item.title}
+                price={item.price}
+                openSpots={item.openSpots}
+              />
+            );
+          })}
         </div>
       </div>
       <Footer />
